@@ -12,8 +12,9 @@ console.log(numbers.reduce(myNumbers));
 
 // and forEach sum of every single number in array
 
-let someNumbers = [2,4,6,8,10,12];
+// let someNumbers = [2,4,6,8,10,12];
 
-someNumbers.forEach((item1,item2) => {
-    console.log(item1 + item2);
-})
+// someNumbers.forEach((item1,item2) => {
+//     console.log(item1 + item2);
+// })
+
