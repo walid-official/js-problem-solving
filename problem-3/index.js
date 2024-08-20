@@ -18,9 +18,6 @@
 
 
 
-
-
-
 // 3. printing all calculation with prompt
 
 // let a = parseInt(prompt('Enter Your First number :'));
@@ -34,6 +31,8 @@
 // console.log(`X = ${x}`);
 // console.log(`X = ${y}`);
 // console.log(`X = ${z}`);
+
+
 
 
 // 4.  print The salary and Number
