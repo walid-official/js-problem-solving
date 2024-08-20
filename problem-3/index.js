@@ -36,14 +36,21 @@
 // console.log(`X = ${z}`);
 
 
+// 4.  print The salary and Number
+
+// let number = parseInt(prompt('Enter Your First number :'));
+// let salary = parseInt(prompt('Enter Your First number :'));
+// let floatPoint = parseFloat(prompt('Enter Your First number :'));
+// let product = number * salary * floatPoint;
+
+// console.log(`NUMBER = ${number}  SALARY = U$ ${product}`);
 
 
 
 
 
 
-
-// 4. creating a calculator
+// 5. creating a calculator
 
 let a = parseInt(prompt('Enter Your First number :'));
 let b = parseInt(prompt('Enter Your First number :'));
@@ -69,3 +76,4 @@ switch(calculation){
 }
 
 console.log(result);
+
