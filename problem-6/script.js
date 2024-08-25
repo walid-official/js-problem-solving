@@ -34,38 +34,39 @@
 
 //The callback pattern
 
-let payment = true;
-const marks = 20;
+// let payment = true;
+// const marks = 20;
 
-function enroll(callback){
-    console.log('The enrollment is pending..')
-    setTimeout(function(){
-       if(payment){
-        callback();
-       }else{
-        console.log('payment failed')
-       }
-    },2000)
-}
+// function enroll(callback){
+//     console.log('The enrollment is pending..')
+//     setTimeout(function(){
+//        if(payment){
+//         callback();
+//        }else{
+//         console.log('payment failed')
+//        }
+//     },2000)
+// }
 
-function progress(callback){
-    console.log('Your course is progressing');
-    setTimeout(function(){
-        if(marks >= 80){
-            callback();
-        }else{
-            console.log('you must get 80 marks or more than not less than')
-        }
-    },3000)
-}
+// function progress(callback){
+//     console.log('Your course is progressing');
+//     setTimeout(function(){
+//         if(marks >= 80){
+//             callback();
+//         }else{
+//             console.log('you must get 80 marks or more than not less than')
+//         }
+//     },3000)
+// }
 
-function getCertificate(){
-    console.log('your certificate is preparing');
-    setTimeout(function(){
-        console.log('congrates! you got certificate');
-    })
-}
+// function getCertificate(){
+//     console.log('your certificate is preparing');
+//     setTimeout(function(){
+//         console.log('congrates! you got certificate');
+//     })
+// }
 
-enroll(function(){
-    progress(getCertificate);
-})
+// enroll(function(){
+//     progress(getCertificate);
+// })
+
