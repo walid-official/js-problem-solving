@@ -13,7 +13,9 @@
 
 // with arrow function
 
-const fruits = ['apple', 'banana', 'cherry'];
-const uppercasedFruits = fruits.map(fruit => fruit.toUpperCase());
+// const fruits = ['apple', 'banana', 'cherry'];
+// const uppercasedFruits = fruits.map(fruit => fruit.toUpperCase());
 
-console.log(uppercasedFruits); // Outputs: ['APPLE', 'BANANA', 'CHERRY']
+// console.log(uppercasedFruits); // Outputs: ['APPLE', 'BANANA', 'CHERRY']
+
+
